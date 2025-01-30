@@ -11,12 +11,12 @@ CORS(app)
 @app.route("/")
 
 def home():
-    response = {
+    response = OrderedDict({
         "email" : "bibinusolomon@gmail.com",
         "current_datetime": datetime.now(pytz.UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "github_url" : "https://github.com/N-anle/flask-api-HNG12-internship"
 
-    }
+    })
 
     return jsonify(response)    
 
