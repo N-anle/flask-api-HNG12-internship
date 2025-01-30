@@ -12,7 +12,7 @@ CORS(app)
 def home():
     response = {
         "email" : "bibinusolomon@gmail.com",
-        "current_datetime" : datetime.now(pytz.UTC).isoformat(),
+        "current_datetime": datetime.now(pytz.UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "github_url" : "https://github.com/N-anle/flask-api-HNG12-internship"
 
     }
