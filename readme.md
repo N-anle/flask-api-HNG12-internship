@@ -27,7 +27,7 @@ This is a Flask API created for the HNG12 Internship.
 ```python
 
   git clone https://github.com/N-anle/flask-api-HNG12-internship.git
-  cd flask-api-HNG12-internship
+  cd flask-api-HNG12-internship ```
 
 2️⃣ Create a Virtual Environment (optional)
 
@@ -35,15 +35,15 @@ This is a Flask API created for the HNG12 Internship.
 
   python -m venv venv
   source venv\bin\activate #for macOS/Linux
-  venv\scripts\activate #for windows
+  venv\scripts\activate #for windows ```
 
 3️⃣ Install Dependencies
   ```python
-      pip install -r requirements.txt
+      pip install -r requirements.txt ````
 
 4️⃣ Run the API Locally
   ```python
-    python app.py
+    python app.py ```
 
 ## 🌎 Deployment
 This API is deployed on Render at:
